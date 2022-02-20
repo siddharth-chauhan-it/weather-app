@@ -57,9 +57,9 @@ function Weather() {
   }, [place]);
 
   return (
-    <div>
+    <div className="px-s12">
       {placeInfo.country && (
-        <div className="font-primary mx-auto mt-s40 w-[400px] border rounded-24 p-s20">
+        <div className="font-primary mx-auto mt-s40 sm:w-[400px] border rounded-24 p-s20">
           <h1 className="font-quaternary text-subtitle2 font-bold">
             WeatherAPI
           </h1>
